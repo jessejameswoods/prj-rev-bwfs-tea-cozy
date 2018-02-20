@@ -1,0 +1,142 @@
+    /*-- Body Styles --*/
+
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+    /*-- Heading Styles --*/
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+    /*-- Head Section Styles --*/
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: black;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    width: 100%;
+    height: 69px;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+a {
+    color: seashell;
+}
+
+
+    /*-- Main Container Section Styles --*/
+
+.main {
+    margin: auto;
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+}
+
+    /*-- Our Mission Section Styles --*/
+
+#ourmission {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    padding-top: 70px;
+    height: 700px;
+}
+
+#ourmission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+    /*-- Tea of the Month Section Styles --*/
+
+#teaofthemonth {
+    margin: auto;
+    padding-top: 70px;
+    height: 700px;
+    width: 1000px;
+}
+
+.item {
+    padding: 5px;
+}
+
+.item img {
+    display: block;
+    height: 200px;
+    margin: 10px;
+}
+
+.item span {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+    /*-- Locations Section Styles --*/
+
+#locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    padding-top: 70px;
+    height: 500px;
+}
+
+#locations .flex-container {
+    margin: auto;
+    width: 1100px;
+}
+
+.location {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+}
+
+    /*-- Contact Section Styles --*/
+
+#contact {
+    height: 200px;
+}
+
+    /*-- Footer Section Styles --*/
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
